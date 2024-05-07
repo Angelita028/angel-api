@@ -1,0 +1,66 @@
+{
+  "name": "jeje-api",
+  "version": "4.0.0",
+  "description": "Simple API By Jeje",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "lib/tools": "lib/tools",
+    "lib/game": "lib/game"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jejedev/Jeje-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jejedev/Jeje-api/issues"
+  },
+  "dependencies": {
+    "@bochilteam/scraper": "^4.2.4",
+    "@bochilteam/scraper-root": "github:bochilteam/scraper",
+    "@vitalets/google-translate-api": "^9.2.0",
+    "axios": "^0.27.0",
+    "caliph-api": "github:caliphdev/caliph-api",
+    "change-case": "^3.0.2",
+    "cheerio": "^1.0.0-rc.5",
+    "cookie": "^0.5.0",
+    "file-type": "^16.5.3",
+    "follow-redirects": "^1.15.2",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "got": "^11.8.6",
+    "html-entities": "^1.2.1",
+    "instatouch": "^2.3.22",
+    "ip-range-check": "^0.2.0",
+    "jsdom": "^24.0.0",
+    "mathjs": "^11.0.0",
+    "mime": "^1.6.0",
+    "moment-timezone": "^0.5.43",
+    "node-fetch": "^2.7.0",
+    "qs": "^6.12.1",
+    "soundcloud-scraper": "^5.0.3",
+    "uglify-js": "^3.15.3",
+    "undici": "^6.15.0",
+    "whois": "latest",
+    "yt-search": "^2.7.4",
+    "ytdl-core": "github:fent/node-ytdl-core",
+    "zod": "^3.20.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js",
+    "minify": "node minify.js --path ."
+  },
+  "keywords": [
+    "jeje-api",
+    "api",
+    "rest-api",
+    "scraper",
+    "downloader",
+    "tools",
+    "multifunctions",
+    "scrapers"
+  ],
+  "author": "Rintisdev",
+  "license": "GPL-3.0-or-later"
+}
