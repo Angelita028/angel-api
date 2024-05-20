@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jejedev/Jeje-api.git"
+    "url": "git+https://github.com/angelita028/angel-api.git"
   },
   "bugs": {
-    "url": "https://github.com/Jejedev/Jeje-api/issues"
+    "url": "https://github.com/angelita028/angel-api/issues"
   },
   "dependencies": {
     "@bochilteam/scraper": "^4.2.4",
